@@ -1,0 +1,28 @@
+# Arquivos de banco de dados SQLite3
+*.sqlite?
+db/
+
+# Arquivos estáticos
+staticfiles/
+
+# Configuração de ambiente
+.env
+
+# Criado por Python rodando localmente
+__pycache__/
+
+# Criado por setup.py
+build/
+dist/
+*.egg-info/
+
+# Criado por pytest
+.pytest_cache/
+.coverage
+htmlcov
+
+# Criado por pdb
+.pdb-pyhist
+
+# IDEs
+.idea/
